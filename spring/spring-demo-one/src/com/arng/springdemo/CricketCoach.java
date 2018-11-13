@@ -7,4 +7,9 @@ public class CricketCoach implements Coach {
 		return "Spend two hours in net practice";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
+
 }
